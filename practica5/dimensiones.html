@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Dimensiones CSS</title>
+	
+	<link rel="stylesheet" href="dimensiones.css">
+</head>
+<body>
+    <h1>Normal</h1>
+	<div class="p1">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate amet dicta cum incidunt molestiae, ad perspiciatis, delectus pariatur rem aliquid quibusdam ipsum laborum reprehenderit totam cumque, quasi, harum! Blanditiis.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sequi aliquid magni excepturi ad, tenetur, quod similique, <a href="http://google.es" target="_blank">commodi delectus</a> architecto nihil dolorem vel soluta maiores ut, nam. Error, quas, nam.</p>
+	</div>
+
+    <h1>Ejercicio 1.</h1>
+    <h1>1º</h1>
+    <div class="p2">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate amet dicta cum incidunt molestiae, ad perspiciatis, delectus pariatur rem aliquid quibusdam ipsum laborum reprehenderit totam cumque, quasi, harum! Blanditiis.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sequi aliquid magni excepturi ad, tenetur, quod similique, <a href="http://google.es" target="_blank">commodi delectus</a> architecto nihil dolorem vel soluta maiores ut, nam. Error, quas, nam.</p>
+	</div>
+
+    <h1>2º</h1>
+    <div class="p3">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate amet dicta cum incidunt molestiae, ad perspiciatis, delectus pariatur rem aliquid quibusdam ipsum laborum reprehenderit totam cumque, quasi, harum! Blanditiis.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sequi aliquid magni excepturi ad, tenetur, quod similique, <a href="http://google.es" target="_blank">commodi delectus</a> architecto nihil dolorem vel soluta maiores ut, nam. Error, quas, nam.</p>
+	</div>
+
+    <h1>3º</h1>
+    <div class="p4">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate amet dicta cum incidunt molestiae, ad perspiciatis, delectus pariatur rem aliquid quibusdam ipsum laborum reprehenderit totam cumque, quasi, harum! Blanditiis.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sequi aliquid magni excepturi ad, tenetur, quod similique, <a href="http://google.es" target="_blank">commodi delectus</a> architecto nihil dolorem vel soluta maiores ut, nam. Error, quas, nam.</p>
+	</div>
+
+
+    <h3>Escribe con tus palabras las tres posibilidades y cómo le afecta al documento html</h3>
+    <p><b>En el 1º div:</b> dado a que solo tiene 2 medidas, pues se resume en vez de 4 en 2: arriba y abajo / derecha y izquierda (20px / 10px).</p>
+    <p><b>En el 2º div:</b> tiene 4 medidas que contribuyen con cada lado del div en el siguiente orden: arriba / derecha / abajo / izuierda (20px / 5px 7 5px / 0px)</p>
+    <p><b>En el 3º div.</b> tiene las mismas propiedades que el 2º div pero solo esta mas extenso ya que lo dice en vez de en 1 línea en 4.</p>
+
+    <h1>Ejercicio 2.</h1>
+    <div class="p5">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate amet dicta cum incidunt molestiae, ad perspiciatis, delectus pariatur rem aliquid quibusdam ipsum laborum reprehenderit totam cumque, quasi, harum! Blanditiis.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sequi aliquid magni excepturi ad, tenetur, quod similique, <a href="http://google.es" target="_blank">commodi delectus</a> architecto nihil dolorem vel soluta maiores ut, nam. Error, quas, nam.</p>
+	</div>
+
+    <h3>Ahora modifica el ancho del borde y el color e indica cómo se realiza en ambas notaciones:</h3>
+    <div class="p6">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate amet dicta cum incidunt molestiae, ad perspiciatis, delectus pariatur rem aliquid quibusdam ipsum laborum reprehenderit totam cumque, quasi, harum! Blanditiis.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sequi aliquid magni excepturi ad, tenetur, quod similique, <a href="http://google.es" target="_blank">commodi delectus</a> architecto nihil dolorem vel soluta maiores ut, nam. Error, quas, nam.</p>
+	</div>
+
+    <h1>Ejercicio 3.</h1>
+    <div class="p7">
+		<p class="t1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate amet dicta cum incidunt molestiae, ad perspiciatis, delectus pariatur rem aliquid quibusdam ipsum laborum reprehenderit totam cumque, quasi, harum! Blanditiis.</p>
+		<p class="t1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sequi aliquid magni excepturi ad, tenetur, quod similique, <a href="http://google.es" target="_blank">commodi delectus</a> architecto nihil dolorem vel soluta maiores ut, nam. Error, quas, nam.</p>
+	</div>
+
+    <h3>¿Qué le ocurre al documento html?</h3>
+    <p>Al haber dado unas propiedades directamente al texto se modifica de la forma que hemos puesto, como si fuese un div.</p>
+
+    <h3>Ahora queremos añadir márgenes a los párrafos de 20px ¿qué valor modificarías de las propiedades anteriores?
+    Indica cómo y qué valor hay que modificar y observa qué le ocurre a los párrafos, explícalo:</h3>
+    <p>Sería añadir un margin para separarlos, sería así: margin: 20px;</p>
+
+    <div class="p8">
+		<p class="t2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate amet dicta cum incidunt molestiae, ad perspiciatis, delectus pariatur rem aliquid quibusdam ipsum laborum reprehenderit totam cumque, quasi, harum! Blanditiis.</p>
+		<p class="t2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sequi aliquid magni excepturi ad, tenetur, quod similique, <a href="http://google.es" target="_blank">commodi delectus</a> architecto nihil dolorem vel soluta maiores ut, nam. Error, quas, nam.</p>
+	</div>
+
+
+
+
+</body>
+</html>

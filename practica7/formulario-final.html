@@ -10,42 +10,50 @@
 <body>
     <div class="all">
         <form class="forms" action="" method="">
-            <div class="header">
-                <h1>REGISTRATE</h1>
-                <h3>completa todos los campos del formulario para registrarte en nuestra página web.</h3>
+            <div class="div_inicio">
+                <button class="inicio" type="button"><h7>Iniciar Sesión</h7></button>
             </div>
+            <div class="header">
+                <h1>REGISTRATE!!</h1>
+                <h3>(completa todos los campos del formulario para registrarte en nuestra página web)</h3>
+            </div>
+            <hr>
+            <div>
             <p>
-                <label class="nombre_usuario">Nombre de usuario:</label>
+                <label class="usuariol"><b>Nombre de usuario:</b></label>
                 <br>
-                <input type="text" required="obligatorio" placeholder="escribe tu usuario...">
+                <input class="usuario" type="text" required="obligatorio" placeholder="escribe tu usuario...">
             </p>
+            </div>
+            <hr>
+            <div>
             <p>
-                <label class="correo">Correo electrónico:</label>
+                <label class="correol"><b>Correo electrónico:</b></label>
                 <br>
-                <input type="email" required="obligatorio" placeholder="escribe tu email...">
+                <input class="correo" type="email" required="obligatorio" placeholder="escribe tu email...">
             </p>
+            </div>
+            <hr>
+            <div>
             <p>
-                <label class="passwd">Contraseña:</label>
+                <label class="passwdl"><b>Contraseña:</b></label>
                 <br>
-                <input type="password" required="obligatorio" placeholder="escribe tu contraseña...">
+                <input class="passwd" type="password" required="obligatorio" placeholder="escribe tu contraseña...">
+            </p>
+            </div>
+            <hr>
+            <div>
+            <p>
+                <input type="radio" value="Recordar contraseña"> Recordar credenciales.
+                <br>
                 <br>
                 <h7>(no accederemos de ninguna manera a tu correo electrónico esto solo es para mantenernos en contacto con usted)</h7>
-            </p>
-            <p>
-                <label class="años">Fecha de nacimiento:</label>
                 <br>
-                <input type="datetime-local" required="obligatorio">
+                <div class="div_reg">
+                <button class="reg" type="submit"><h7><b>Registrarse</b></h7></button>
+                </div>
             </p>
-            <p>
-                <label class="dni">DNI:</label>
-                <br>
-                <input type="text" required="obligatorio" placeholder="escribe tu dni...">
-                <br>
-                <h7>(solo si eres mayor de 18 años)</h7>
-            </p>
-            <p>
-                <button type="submit"><p>Registrarse</p></button>
-            </p>
+            </div>
         </form>
     </div>
 </body>

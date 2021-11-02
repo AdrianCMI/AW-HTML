@@ -1,0 +1,77 @@
+.head {
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.text {
+
+    background-color: transparent;
+    color: transparent;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    font-size: 22px;
+    top: -70px;
+    z-index: 1;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.3s ease-in-out;
+
+}
+
+.text2 {
+
+    top: -50px;
+    transition: 0.2s ease-in-out;
+}
+
+.text:hover {
+
+    transform: translateY(-30px);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.netflix {
+
+    background-color: rgb(255, 255, 255);
+    width: 20.5%;
+    height: 285px;
+    float: left;
+    padding: 2%;
+    z-index: 2;
+}
+
+.primevideo {
+
+    background-color: rgb(255, 255, 255);
+    width: 20.5%;
+    height: 285px;
+    float: left;
+    padding: 2%;
+    z-index: 2;
+}
+
+.hbo {
+
+    background-color: rgb(255, 255, 255);
+    width: 20.5%;
+    height: 285px;
+    float: left;
+    padding: 2%;
+    z-index: 2;
+}
+
+.disney {
+
+    background-color: rgb(255, 255, 255);
+    width: 20.5%;
+    height: 285px;
+    float: left;
+    padding: 2%;
+    z-index: 2;
+}

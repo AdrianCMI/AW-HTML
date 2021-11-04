@@ -1,0 +1,129 @@
+.parent {
+    display: grid;
+    grid-template-columns:.85fr repeat(2, 1fr) .45fr;
+    grid-template-rows:repeat(4, 1fr) 0.75fr;
+
+}
+
+
+
+.parent > div {
+
+    text-align: center;
+    border: 0px solid black;
+}
+
+
+
+.head { 
+
+    grid-area: 1 / 1 / 2 / 4; 
+    background-color: rgb(255, 87, 87);
+}
+
+
+
+.enunciado {
+
+    position: relative;
+    top: 10px;
+    font-size: 40px;
+}
+
+
+
+.icon { 
+
+    grid-area: 1 / 4 / 2 / 5; 
+    background-color: rgb(255, 87, 87);
+}
+
+
+
+.menu { 
+
+    grid-area: 2 / 1 / 5 / 2; 
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.menubutton {
+
+    padding: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    left: 22px;
+    position: fixed;
+}
+
+
+
+.m1, .m2, .m3 {
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 95%;
+    height: 40px;
+    box-shadow: 1px 1px 2px black;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.1s ease-in;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.m1:hover, .m2:hover, .m3:hover {
+
+    width: 100%;
+    height: 48px;
+    background-color: rgb(48, 48, 48);
+    box-shadow: 4px 4px 2px black;
+    border-radius: 15px;
+}
+
+
+
+.info {
+
+    grid-area: 2 / 2 / 5 / 4; 
+    background-color: tomato;
+    text-align: right;
+}
+
+
+
+.c {
+
+    width: 420px;
+    height: 270px;
+}
+
+
+
+.space { 
+
+    grid-area: 2 / 4 / 5 / 5;
+    background-color: white;
+}
+
+
+
+.footer { 
+
+    grid-area: 5 / 1 / 6 / 5; 
+    background-color: rgb(150, 150, 150);
+    border: 1px solid rgb(0, 0, 0);
+    height: 80px;
+}
+
+
+
+hr {
+
+
+    border-color: black;
+    width: 90%;
+}
